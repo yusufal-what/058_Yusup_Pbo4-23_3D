@@ -1,0 +1,22 @@
+class Matematika {
+    public int tambah(int a, int b) {
+        return a + b;
+    }
+
+    public int kurang(int a, int b) {
+        return a - b;
+    }
+
+    public int kali(int a, int b) {
+        return a * b;
+    }
+
+    public int bagi(int a, int b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            System.out.println("Error: Pembagi tidak boleh nol.");
+            return 0;
+        }
+    }
+}
